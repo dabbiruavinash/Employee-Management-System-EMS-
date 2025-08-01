@@ -1,0 +1,43 @@
+employee_management_system/
+│
+├── main.py                      # Main application entry point
+├── config/                      # Configuration files
+│   ├── spark_config.py
+│   └── app_config.py
+│
+├── core/                        # Core system components
+│   ├── __init__.py
+│   ├── employee.py
+│   ├── department.py
+│   ├── payroll.py
+│   ├── attendance.py
+│   └── performance.py
+│
+├── services/                    # Service layer
+│   ├── __init__.py
+│   ├── employee_service.py
+│   ├── department_service.py
+│   ├── payroll_service.py
+│   ├── attendance_service.py
+│   ├── performance_service.py
+│   └── analytics_service.py
+│
+├── utils/                       # Utility modules
+│   ├── __init__.py
+│   ├── spark_utils.py
+│   ├── data_utils.py
+│   ├── validation_utils.py
+│   ├── logging_utils.py
+│   └── date_utils.py
+│
+├── data/                        # Data files
+│   ├── input/
+│   ├── output/
+│   └── processed/
+│
+├── tests/                       # Test modules
+│   ├── __init__.py
+│   ├── test_employee.py
+│   └── test_department.py
+│
+└── README.md                    # Project documentation
